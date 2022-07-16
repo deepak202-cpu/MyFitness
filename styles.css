@@ -1,0 +1,81 @@
+nav li {
+  list-style: none;
+  padding: 0 12px;
+}
+.logo {
+  font-size: 25px;
+}
+.gymImage img {
+  height: 70vh;
+}
+.box {
+  margin: 10px 20px;
+  min-width: 22vw;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.box ul li {
+  list-style: none;
+  padding: 2px 0;
+  padding-right: 45px;
+}
+.box h1 {
+  margin: 0;
+  background-color: gray;
+  border: 2px solid rgb(233, 110, 2);
+  border-radius: 5px;
+}
+.section3 th {
+  border-bottom: 2px solid black;
+  border-collapse: collapse;
+  padding: 10px 0;
+}
+.section3 td {
+  border-bottom: 2px solid black;
+  border-collapse: collapse;
+}
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.plantable table {
+  width: 60vw;
+}
+.timer{
+    font-size: 1.5rem;
+    color: brown;
+    background-color: black;
+    width: 30vw;
+    margin: auto;
+    padding: 4px;
+}
+.dumbellImg img{
+    width: 25vw;
+}
+footer{
+    padding: 15px;
+}
+
+@media  (max-width:750px) {
+    .boxes{
+        flex-wrap: wrap;
+    }
+    .gymImage img{
+        height: 50vh;
+    }
+}
+@media (max-width: 500px){
+    .gymImage img{
+        height: 25vh;
+    }
+}
+@media (max-width: 600px){
+     header{
+        flex-wrap: wrap;
+     }
+     nav ul{
+        flex-wrap: wrap;
+     }
+}

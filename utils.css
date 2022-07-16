@@ -1,0 +1,55 @@
+.container{
+    width: 80vw;
+}
+.d-flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-items{
+    align-items: center;
+}
+.d-row{
+    flex-direction: row;
+}
+.space-between{
+    justify-content: space-between;
+}
+.p-x{
+    padding: 0 12px;
+}
+.mx-auto{
+    margin: auto;
+}
+.blue{
+    color: blue;
+}
+.font-bold{
+    font-weight: bold;
+}
+.btn{
+    padding: 2px 6px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: wheat;
+    background-color: black;
+}
+.min-h{
+    min-height: 70vh;
+}
+.flex-end{
+    justify-content: flex-end;
+}
+.text-center{
+    text-align: center;
+}
+.font-size{
+    font-size: 2rem;
+}
+.py-2{
+    padding-left: 63px;
+    padding-right: 63px;
+}
